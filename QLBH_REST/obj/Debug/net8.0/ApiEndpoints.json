@@ -21,9 +21,92 @@
   },
   {
     "ContainingType": "QLBH_REST.Controllers.SanPhamController",
+    "Method": "AddSanPham",
+    "RelativePath": "SanPham",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sanpham",
+        "Type": "QLBH_REST.Models.SANPHAM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "QLBH_REST.Models.SANPHAM",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "QLBH_REST.Controllers.SanPhamController",
     "Method": "GetSanPhamByID",
     "RelativePath": "SanPham/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "QLBH_REST.Models.SANPHAM",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "QLBH_REST.Controllers.SanPhamController",
+    "Method": "UpdateSanPham",
+    "RelativePath": "SanPham/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sanpham",
+        "Type": "QLBH_REST.Models.SANPHAM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "QLBH_REST.Models.SANPHAM",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "QLBH_REST.Controllers.SanPhamController",
+    "Method": "DeleteSanPham",
+    "RelativePath": "SanPham/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

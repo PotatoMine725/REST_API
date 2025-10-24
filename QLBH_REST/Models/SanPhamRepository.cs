@@ -1,14 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿// File: QLBH_REST/Models/SanPhamRepository.cs (Đã hoàn thiện)
+using Microsoft.EntityFrameworkCore;
 
 namespace QLBH_REST.Models
 {
     public class SanPhamRepository : ISanPham
     {
+        // DBQLBH là DbSet<SANPHAM> tbSANPHAM { get; set; }
         private readonly DBQLBH dbqlbh;
         public SanPhamRepository(DBQLBH db)
         {
             dbqlbh = db;
         }
+
         public async Task<IEnumerable<SANPHAM>> GetAllSanPham()
         {
             return await this.dbqlbh.tbSANPHAM.ToListAsync();
@@ -16,22 +19,47 @@ namespace QLBH_REST.Models
 
         public async Task<SANPHAM> GetSanPhamByID(int id)
         {
-            return await this.dbqlbh.tbSANPHAM.FirstOrDefaultAsync(x => x.MaSanPham == id);
+            // Dùng FindAsync để tìm theo khóa chính MaSanPham
+            return await this.dbqlbh.tbSANPHAM.FindAsync(id);
         }
 
         public async Task<SANPHAM> AddSanPham(SANPHAM sp)
         {
-            throw new NotImplementedException();
+            var result = await dbqlbh.tbSANPHAM.AddAsync(sp);
+            await dbqlbh.SaveChangesAsync();
+            return result.Entity;
         }
 
         public async Task<SANPHAM> UpdateSanPham(int id, SANPHAM sp)
         {
-            throw new NotImplementedException();
+            var existingSp = await dbqlbh.tbSANPHAM.FindAsync(id);
+
+            if (existingSp != null)
+            {
+                // Cập nhật từng thuộc tính. Lưu ý: Không cập nhật MaSanPham
+                existingSp.TenSanPham = sp.TenSanPham;
+                existingSp.DonGia = sp.DonGia;
+                existingSp.SoLuong = sp.SoLuong;
+                existingSp.HinhAnh = sp.HinhAnh;
+                existingSp.MoTa = sp.MoTa;
+                existingSp.MaDanhMuc = sp.MaDanhMuc; // Đã là int?
+
+                await dbqlbh.SaveChangesAsync();
+                return existingSp;
+            }
+            return null;
         }
 
         public async Task<SANPHAM> DeleteSanPham(int id)
         {
-            throw new NotImplementedException();
+            var sanphamToDelete = await dbqlbh.tbSANPHAM.FindAsync(id);
+            if (sanphamToDelete != null)
+            {
+                dbqlbh.tbSANPHAM.Remove(sanphamToDelete);
+                await dbqlbh.SaveChangesAsync();
+                return sanphamToDelete;
+            }
+            return null;
         }
     }
 }

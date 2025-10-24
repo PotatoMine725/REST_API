@@ -12,6 +12,6 @@ namespace QLBH_REST.Models
         public decimal? SoLuong { get; set; }
         public string? HinhAnh { get; set; }
         public string? MoTa { get; set; }
-        public int MaDanhMuc { get; set; }
+        public int? MaDanhMuc { get; set; }
     }
 }
