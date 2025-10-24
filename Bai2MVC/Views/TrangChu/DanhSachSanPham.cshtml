@@ -1,0 +1,45 @@
+﻿@using Bai2MVC.Models
+@model IEnumerable<tbSANPHAM>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="center_content">
+    <div class="center_title_bar">DANH SÁCH SẢN PHẨM</div>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="products_list" style="overflow: hidden; padding: 10px;">
+            @foreach (var item in Model)
+            {
+                <div class="product_box" style="float: left; width: 30%; margin-right: 3%; margin-bottom: 20px; border: 1px solid #e0e0e0; padding: 15px; text-align: center; height: 320px;">
+                    <div class="product_title" style="font-weight: bold; margin-bottom: 10px;">@item.TENSANPHAM</div>
+                    <div class="product_img">
+                        @* Đảm bảo đường dẫn hình ảnh là chính xác *@
+                        <img src="~/images/@item.HINHANH" alt="@item.TENSANPHAM" style="max-width: 100%; height: 100px; object-fit: contain;" />
+                    </div>
+                    <div class="prod_details" style="margin-top: 10px;">
+                        Giá: <span class="price" style="color: red; font-weight: bold;">@string.Format("{0:N0}", item.DONGIA) VNĐ</span> <br />
+                        Tồn kho: @item.SOLUONG
+                    </div>
+
+                    <div class="actions" style="margin-top: 15px;">
+                        @* Nút Thêm vào Giỏ hàng *@
+                        @Html.ActionLink("Thêm vào Giỏ hàng", "ThemGioHang", "GioHang", new { @iMaSP = item.MASANPHAM, @strURL = Request.Url.ToString() }, new { @class = "buy_now", style = "background-color: #4CAF50; color: white; padding: 5px 8px; text-decoration: none; border-radius: 3px; display: inline-block;" })
+
+                        @* Nút Chi tiết sản phẩm *@
+                        @Html.ActionLink("Chi tiết", "Details", "SanPham", new { @id = item.MASANPHAM }, new { @class = "details", style = "background-color: #007bff; color: white; padding: 5px 8px; text-decoration: none; border-radius: 3px; display: inline-block;" })
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p style="color: orange; padding: 15px; border: 1px solid #ccc; text-align: center; margin: 20px;">
+            Không tìm thấy sản phẩm nào để hiển thị.
+        </p>
+    }
+</div>

@@ -1,0 +1,113 @@
+﻿@model IEnumerable<Bai2MVC.Models.tbSANPHAM>
+
+@{
+    ViewBag.Title = "Quản lý Sản phẩm";
+}
+
+<style>
+    .styled-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        width: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+        .styled-table thead tr {
+            background-color: #009879; /* Màu sắc có thể thay đổi cho hợp theme của bạn */
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+            .styled-table tbody tr:nth-of-type(even) {
+                background-color: #f3f3f3;
+            }
+
+            .styled-table tbody tr:last-of-type {
+                border-bottom: 2px solid #009879;
+            }
+
+            .styled-table tbody tr:hover {
+                background-color: #f1f1f1;
+            }
+
+    .action-btn {
+        display: inline-block;
+        padding: 5px 10px;
+        margin-right: 5px;
+        border-radius: 3px;
+        text-decoration: none;
+        color: white;
+        font-size: 0.8em;
+    }
+
+    .btn-edit {
+        background-color: #f0ad4e;
+    }
+
+    .btn-details {
+        background-color: #5bc0de;
+    }
+
+    .btn-delete {
+        background-color: #d9534f;
+    }
+
+    .btn-add-product {
+        display: inline-block;
+        padding: 8px 15px;
+        background-color: #0066cc;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+</style>
+
+@*<div class="title_box">Quản lý Sản phẩm</div>*@
+
+<div style="padding: 10px 0; text-align: right;">
+    @Html.ActionLink("Thêm sản phẩm mới", "Create", null, new { @class = "btn-add-product" })
+</div>
+
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Ảnh</th>
+            <th>Tên sản phẩm</th>
+            <th>Đơn giá (USD)</th>
+            <th>Số lượng</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.HINHANH))
+                    {
+                        <img src="@Url.Content("~/images/" + item.HINHANH)" alt="@item.TENSANPHAM" style="width: 60px; height: 60px; object-fit: cover; border-radius: 4px;" />
+                    }
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.TENSANPHAM)</td>
+                <td>@((item.DONGIA ?? 0).ToString("N0"))</td>
+                <td>@Html.DisplayFor(modelItem => item.SOLUONG)</td>
+                <td>
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.MASANPHAM }, new { @class = "action-btn btn-edit" })
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.MASANPHAM }, new { @class = "action-btn btn-details" })
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.MASANPHAM }, new { @class = "action-btn btn-delete" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

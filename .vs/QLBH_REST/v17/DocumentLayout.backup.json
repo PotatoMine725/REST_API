@@ -3,8 +3,39 @@
   "WorkspaceRootPath": "D:\\Code\\C#\\QLBH_REST\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\controllers\\trangchucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|d:\\code\\c#\\qlbh_rest\\qlbh_rest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|solutionrelative:qlbh_rest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Bai2MVC||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|d:\\code\\c#\\qlbh_rest\\qlbh_rest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|solutionrelative:qlbh_rest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\models\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\models\\giohangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|d:\\code\\c#\\qlbh_rest\\qlbh_rest\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +50,10 @@
       "RelativeMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|solutionrelative:qlbh_rest\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\controllers\\trangchucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|d:\\code\\c#\\qlbh_rest\\qlbh_rest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|solutionrelative:qlbh_rest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|d:\\code\\c#\\qlbh_rest\\qlbh_rest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -53,6 +74,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|d:\\code\\c#\\qlbh_rest\\qlbh_rest\\models\\isanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}|QLBH_REST\\QLBH_REST.csproj|solutionrelative:qlbh_rest\\models\\isanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}|..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj|d:\\code\\c#\\bai2mvc\\bai2mvc\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,57 +90,149 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\appsettings.json",
-              "RelativeDocumentMoniker": "QLBH_REST\\appsettings.json",
-              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\appsettings.json",
-              "RelativeToolTip": "QLBH_REST\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-09T12:09:18.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DBQLBH.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\DBQLBH.cs",
-              "RelativeDocumentMoniker": "QLBH_REST\\Models\\DBQLBH.cs",
-              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\DBQLBH.cs",
-              "RelativeToolTip": "QLBH_REST\\Models\\DBQLBH.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "GioHangItem.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Models\\GioHangItem.cs",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Models\\GioHangItem.cs",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Models\\GioHangItem.cs",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Models\\GioHangItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:11:01.799Z"
+              "WhenOpened": "2025-10-24T02:31:54.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SANPHAM.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\SANPHAM.cs",
-              "RelativeDocumentMoniker": "QLBH_REST\\Models\\SANPHAM.cs",
-              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\SANPHAM.cs",
-              "RelativeToolTip": "QLBH_REST\\Models\\SANPHAM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Controllers\\GioHangController.cs",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Controllers\\GioHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:09:46.784Z",
+              "WhenOpened": "2025-10-24T02:01:25.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bai2MVC",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-24T02:21:23.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SanPhamRepository.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\SanPhamRepository.cs",
-              "RelativeDocumentMoniker": "QLBH_REST\\Models\\SanPhamRepository.cs",
-              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\SanPhamRepository.cs",
-              "RelativeToolTip": "QLBH_REST\\Models\\SanPhamRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAYAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:15:57.645Z",
+              "WhenOpened": "2025-10-24T02:42:02.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Program.cs",
+              "RelativeDocumentMoniker": "QLBH_REST\\Program.cs",
+              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Program.cs",
+              "RelativeToolTip": "QLBH_REST\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T12:09:07.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "QLBH_REST\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Properties\\launchSettings.json",
+              "RelativeToolTip": "QLBH_REST\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-09T12:20:30.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Controllers\\SanPhamController.cs",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Controllers\\SanPhamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T02:33:01.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrangChuController.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\TrangChuController.cs",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Controllers\\TrangChuController.cs",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\TrangChuController.cs",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Controllers\\TrangChuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T02:01:29.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Views\\GioHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Views\\GioHang\\Index.cshtml",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Views\\GioHang\\Index.cshtml",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Views\\GioHang\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T02:37:52.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DANHMUC.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Models\\DANHMUC.cs",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Models\\DANHMUC.cs",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Models\\DANHMUC.cs",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Models\\DANHMUC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T02:31:56.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SANPHAM.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Models\\SANPHAM.cs",
+              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Models\\SANPHAM.cs",
+              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Models\\SANPHAM.cs",
+              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Models\\SANPHAM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T02:31:51.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "SanPhamController.cs",
               "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Controllers\\SanPhamController.cs",
               "RelativeDocumentMoniker": "QLBH_REST\\Controllers\\SanPhamController.cs",
@@ -129,7 +245,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "SanPhamRepository.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\SanPhamRepository.cs",
+              "RelativeDocumentMoniker": "QLBH_REST\\Models\\SanPhamRepository.cs",
+              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\SanPhamRepository.cs",
+              "RelativeToolTip": "QLBH_REST\\Models\\SanPhamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T12:15:57.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SANPHAM.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\SANPHAM.cs",
+              "RelativeDocumentMoniker": "QLBH_REST\\Models\\SANPHAM.cs",
+              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\SANPHAM.cs",
+              "RelativeToolTip": "QLBH_REST\\Models\\SANPHAM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T12:09:46.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DBQLBH.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\DBQLBH.cs",
+              "RelativeDocumentMoniker": "QLBH_REST\\Models\\DBQLBH.cs",
+              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\DBQLBH.cs",
+              "RelativeToolTip": "QLBH_REST\\Models\\DBQLBH.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T12:11:01.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\appsettings.json",
+              "RelativeDocumentMoniker": "QLBH_REST\\appsettings.json",
+              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\appsettings.json",
+              "RelativeToolTip": "QLBH_REST\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-09T12:09:18.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Views\\Web.config",
               "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Views\\Web.config",
@@ -137,48 +305,12 @@
               "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Views\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-24T02:01:04.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GioHangController.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\GioHangController.cs",
-              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Controllers\\GioHangController.cs",
-              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\GioHangController.cs",
-              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Controllers\\GioHangController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T02:01:25.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Program.cs",
-              "RelativeDocumentMoniker": "QLBH_REST\\Program.cs",
-              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Program.cs",
-              "RelativeToolTip": "QLBH_REST\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAnwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:09:07.804Z",
+              "WhenOpened": "2025-10-24T02:01:04.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "QLBH_REST\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Properties\\launchSettings.json",
-              "RelativeToolTip": "QLBH_REST\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-09T12:20:30.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Web.config",
               "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Web.config",
@@ -191,20 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TrangChuController.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\TrangChuController.cs",
-              "RelativeDocumentMoniker": "..\\Bai2MVC\\Bai2MVC\\Controllers\\TrangChuController.cs",
-              "ToolTip": "D:\\Code\\C#\\Bai2MVC\\Bai2MVC\\Controllers\\TrangChuController.cs",
-              "RelativeToolTip": "..\\Bai2MVC\\Bai2MVC\\Controllers\\TrangChuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T02:01:29.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "20251009121856_InitialCreate.cs",
               "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Migrations\\20251009121856_InitialCreate.cs",
               "RelativeDocumentMoniker": "QLBH_REST\\Migrations\\20251009121856_InitialCreate.cs",
@@ -212,11 +331,12 @@
               "RelativeToolTip": "QLBH_REST\\Migrations\\20251009121856_InitialCreate.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:18:56.426Z"
+              "WhenOpened": "2025-10-09T12:18:56.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "QLBH_REST.csproj",
               "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\QLBH_REST.csproj",
               "RelativeDocumentMoniker": "QLBH_REST\\QLBH_REST.csproj",
@@ -224,11 +344,12 @@
               "RelativeToolTip": "QLBH_REST\\QLBH_REST.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-09T12:09:28.541Z"
+              "WhenOpened": "2025-10-09T12:09:28.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "ISanPham.cs",
               "DocumentMoniker": "D:\\Code\\C#\\QLBH_REST\\QLBH_REST\\Models\\ISanPham.cs",
               "RelativeDocumentMoniker": "QLBH_REST\\Models\\ISanPham.cs",
@@ -236,7 +357,8 @@
               "RelativeToolTip": "QLBH_REST\\Models\\ISanPham.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:15:37.217Z"
+              "WhenOpened": "2025-10-09T12:15:37.217Z",
+              "EditorCaption": ""
             }
           ]
         }

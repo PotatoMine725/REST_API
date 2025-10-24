@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    @* Đảm bảo file style.css và iecss.css nằm trong thư mục ~/Content/css/ *@
+    <link href="@Url.Content("~/Content/css/style.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/iecss.css")" rel="stylesheet" type="text/css" />
+
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="main_container">
+        <div class="top_bar">
+            <div class="top_search">
+                <div class="search_text"><a href="#">Advanced Search</a></div>
+                <input type="text" class="search_input" name="search" />
+
+                <input type="image" src="@Url.Content("~/images/search.gif")" class="search_bt" />
+            </div>
+            <div class="languages">
+                <div class="lang_text">Languages:</div>
+                <a href="#" class="lang"><img src="@Url.Content("~/images/en.gif")" alt="" border="0" /></a>
+                <a href="#" class="lang"><img src="@Url.Content("~/images/de.gif")" alt="" border="0" /></a>
+            </div>
+        </div>
+        <div id="header">
+            <div id="logo"> <a href="#"><img src="@Url.Content("~/images/logo.png")" alt="" border="0" width="237" height="140" /></a> </div>
+            <div class="oferte_content">
+                <div class="top_divider"><img src="@Url.Content("~/images/header_divider.png")" alt="" width="1" height="164" /></div>
+                <div class="oferta">
+                    <div class="oferta_content">
+                        <img src="@Url.Content("~/images/laptop.png")" width="94" height="92" alt="" border="0" class="oferta_img" />
+                        <div class="oferta_details">
+                            <div class="oferta_title">Samsung GX 2004 LM</div>
+                            <div class="oferta_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </div>
+                            <a href="details.html" class="details">details</a>
+                        </div>
+                    </div>
+                    <div class="oferta_pagination"> <span class="current">1</span> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> </div>
+                </div>
+                <div class="top_divider"><img src="@Url.Content("~/images/header_divider.png")" alt="" width="1" height="164" /></div>
+            </div>
+        </div>
+        <div id="main_content">
+            <div id="menu_tab">
+                <div class="left_menu_corner"></div>
+
+                <ul class="menu">
+                    @* Trang chủ *@
+                    <li>
+                        @Html.ActionLink("Trang chủ", "Index", "TrangChu", null, new { @class = "nav1" })
+                    </li>
+                    <li class="divider"></li>
+
+                    @* Trang Hiển thị danh sách sản phẩm (Mới) *@
+                    <li>
+                        @Html.ActionLink("Sản phẩm", "DanhSachSanPham", "TrangChu", null, new { @class = "nav2" })
+                    </li>
+                    <li class="divider"></li>
+
+                    @* Trang Giỏ hàng (Mới) *@
+                    <li>
+                        @Html.ActionLink("Giỏ hàng", "Index", "GioHang", null, new { @class = "nav3" })
+                    </li>
+                    <li class="divider"></li>
+
+                    @* Chức năng quản lý sản phẩm (Quản lý) *@
+                    <li>
+                        @Html.ActionLink("Quản lý Sản phẩm", "Index", "SanPham", null, new { @class = "nav4" })
+                    </li>
+                    <li class="divider"></li>
+
+                    @* Các mục khác (Giữ lại hoặc chỉnh sửa theo ý bạn) *@
+                    <li><a href="#" class="nav4">Sign Up</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#" class="nav5">Shipping</a></li>
+                    <li class="divider"></li>
+
+                    @* Trang Contact Us (Sử dụng Controller/Action nếu có, hoặc giữ nguyên link tĩnh) *@
+                    <li>@Html.ActionLink("Liên hệ", "Contact", "Home", null, new { @class = "nav6" })</li>
+                    <li class="divider"></li>
+
+                    <li class="currencies">
+                        Currencies
+                        <select>
+                            <option>US Dollar</option>
+                            <option>Euro</option>
+                        </select>
+                    </li>
+                </ul>
+                <div class="right_menu_corner"></div>
+            </div>
+            <div class="crumb_navigation"> Navigation: <span class="current">Home</span> </div>
+            <div class="left_content">
+                <div class="title_box">Categories</div>
+                <ul class="left_menu">
+                    <li class="odd"><a href="#">Processors</a></li>
+                    <li class="even"><a href="#">Motherboards</a></li>
+                    <li class="odd"><a href="#">Desktops</a></li>
+                    <li class="even"><a href="#">Laptops &amp; Notebooks</a></li>
+                    <li class="odd"><a href="#">Processors</a></li>
+                    <li class="even"><a href="#">Motherboards</a></li>
+                </ul>
+                <div class="title_box">Special Products</div>
+                <div class="border_box">
+                    <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+                    <div class="product_img"><a href="details.html"><img src="@Url.Content("~/images/laptop.png")" alt="" border="0" /></a></div>
+                    <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
+                </div>
+                <div class="title_box">Newsletter</div>
+                <div class="border_box">
+                    <input type="text" name="newsletter" class="newsletter_input" value="your email" />
+                    <a href="#" class="join">join</a>
+                </div>
+                <div class="banner_adds"> <a href="#"><img src="@Url.Content("~/images/bann2.jpg")" alt="" border="0" /></a> </div>
+            </div>
+            <div class="center_content">
+                @RenderBody()
+            </div>
+            <div class="right_content">
+                <div class="shopping_cart">
+                    <div class="cart_title">Shopping cart</div>
+                    <div class="cart_details">
+                        3 items <br />
+                        <span class="border_cart"></span> Total: <span class="price">350$</span>
+                    </div>
+                    <div class="cart_icon"><a href="#" title="header=[Checkout] body=[&nbsp;] fade=[on]"><img src="@Url.Content("~/images/shoppingcart.png")" alt="" width="48" height="48" border="0" /></a></div>
+                </div>
+                <div class="title_box">What's new</div>
+                <div class="border_box">
+                    <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
+                    <div class="product_img"><a href="details.html"><img src="@Url.Content("~/images/p2.gif")" alt="" border="0" /></a></div>
+                    <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
+                </div>
+                <div class="title_box">Manufacturers</div>
+                <ul class="left_menu">
+                    <li class="odd"><a href="#">Sony</a></li>
+                    <li class="even"><a href="#">Samsung</a></li>
+                    <li class="odd"><a href="#">Daewoo</a></li>
+                </ul>
+                <div class="banner_adds"> <a href="#"><img src="@Url.Content("~/images/bann1.jpg")" alt="" border="0" /></a> </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left_footer"> <img src="@Url.Content("~/images/footer_logo.png")" alt="" width="170" height="49" /> </div>
+            <div class="center_footer">
+                &copy; @DateTime.Now.Year - My ASP.NET Application<br />
+                <a href="http://csscreme.com"><img src="@Url.Content("~/images/csscreme.jpg")" alt="csscreme" border="0" /></a><br />
+                <img src="@Url.Content("~/images/payment.gif")" alt="" />
+            </div>
+            <div class="right_footer"> <a href="#">home</a> <a href="#">about</a> <a href="#">sitemap</a> <a href="#">rss</a> <a href="contact.html">contact us</a> </div>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

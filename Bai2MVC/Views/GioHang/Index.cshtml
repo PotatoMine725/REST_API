@@ -1,0 +1,72 @@
+﻿@using Bai2MVC.Models
+@model List<GioHangItem>
+
+@{
+    ViewBag.Title = "Giỏ hàng của bạn";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Đảm bảo sử dụng đúng layout
+}
+
+<div class="center_content">
+    <div class="center_title_bar">GIỎ HÀNG CỦA BẠN</div>
+
+    @if (Model == null || Model.Count == 0)
+    {
+        <p style="color: red; padding: 10px; border: 1px solid #ccc;">
+            Giỏ hàng của bạn hiện đang trống. <br />
+            @Html.ActionLink("Quay lại mua sắm", "DanhSachSanPham", "TrangChu")
+        </p>
+    }
+    else
+    {
+        <table width="100%" border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;">
+            <thead>
+                <tr style="background-color: #f0f0f0;">
+                    <th>Ảnh</th>
+                    <th>Tên Sản phẩm</th>
+                    <th>Đơn giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @* Sửa 1: Sửa đường dẫn ảnh *@
+                        <td align="center"><img src="~/HinhAnhSP/@item.HinhAnh" alt="@item.TenSanPham" style="width: 50px; height: 50px;" /></td>
+                        <td>@item.TenSanPham</td>
+                        <td align="right">@string.Format("{0:N0}", item.DonGia) VNĐ</td>
+
+                        @* Sửa 2: Đặt Form BÊN TRONG thẻ TD *@
+                        <td align="center">
+                            @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @iMaSP = item.MaSanPham }, FormMethod.Post))
+                            {
+                                <input type="number" name="txtSoLuong" value="@item.SoLuong" min="1" style="width: 50px;" />
+                                <input type="submit" value="Cập nhật" style="margin-left: 5px;" />
+                            }
+                        </td>
+
+                        <td align="right">**@string.Format("{0:N0}", item.ThanhTien) VNĐ**</td>
+                        <td align="center">
+                            @Html.ActionLink("Xóa", "XoaGioHang", "GioHang", new { @iMaSP = item.MaSanPham }, new { style = "color: red;" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr style="background-color: #f9f9f9; font-weight: bold;">
+                    <td colspan="3" align="right">Tổng cộng:</td>
+                    <td align="center">@Model.Sum(n => n.SoLuong)</td>
+                    <td align="right" colspan="2">@string.Format("{0:N0}", Model.Sum(n => n.ThanhTien)) VNĐ</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div style="margin-top: 20px; text-align: right;">
+            @Html.ActionLink("Tiếp tục mua sắm", "DanhSachSanPham", "TrangChu", null, new { style = "padding: 5px 10px; margin-right: 10px; border: 1px solid blue;" })
+            @Html.ActionLink("Xóa toàn bộ giỏ hàng", "XoaTatCaGioHang", "GioHang", null, new { style = "padding: 5px 10px; margin-right: 10px; border: 1px solid orange;" })
+            <a href="#" style="padding: 5px 10px; background-color: green; color: white;">Thanh toán</a>
+        </div>
+    }
+</div>
