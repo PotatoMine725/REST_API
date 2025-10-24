@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\QLBH_REST.props" />
+</Project>

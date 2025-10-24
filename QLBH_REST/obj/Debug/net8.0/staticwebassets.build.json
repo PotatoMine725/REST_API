@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BlCYXWmXFj0dgyt+VYIi+Sn1pZROlec5OpUkYGymObM=",
+  "Source": "QLBH_REST",
+  "BasePath": "_content/QLBH_REST",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

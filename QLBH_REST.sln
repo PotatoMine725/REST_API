@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLBH_REST", "QLBH_REST\QLBH_REST.csproj", "{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2MVC", "..\Bai2MVC\Bai2MVC\Bai2MVC.csproj", "{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FD7F1F-FF0F-48F2-9886-0AA0A7E676D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F7BD4F-D9BA-49E8-9C8F-A06F53C5F961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7386D149-5D7F-4D63-8A87-6A3061E3B07B}
+	EndGlobalSection
+EndGlobal

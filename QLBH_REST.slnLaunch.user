@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "QLBH_REST\\QLBH_REST.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "..\\Bai2MVC\\Bai2MVC\\Bai2MVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+@QLBH_REST_HostAddress = http://localhost:5272
+
+GET {{QLBH_REST_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
